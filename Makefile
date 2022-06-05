@@ -18,4 +18,7 @@ test:
 	PYTHONPATH=. py.test
 
 lint:
-	flake8 hello_world test # noqa
+	flake8 hello_world test
+
+testverbose:
+	PYTHONPATH=. py.test --verbose -s
