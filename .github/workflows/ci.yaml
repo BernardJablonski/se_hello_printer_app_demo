@@ -22,3 +22,6 @@ jobs:
       # testverbose
       - name: Tests Verbose
         run: make testverbose
+      # Make Lint
+      - name: Run lint
+        run: make lint
